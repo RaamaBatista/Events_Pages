@@ -1,0 +1,51 @@
+banner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://img.freepik.com/vetores-gratis/projeto-colorido-bonito-do-teste-padrao-do-pow-do-gatinho_1017-14710.jpg?w=740&t=st=1692501785~exp=1692502385~hmac=411efa6e763314dedc70184c012ff714a908202dc3fad229f596eaec5c6b06b5);
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.classeIMG {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: auto;
+    width: 30rem;
+    height: 15rem;
+    object-fit: cover;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.classeIMG:hover {
+    transform: scale(0.90);
+}
+
+h1 {
+    color: #6d2db0;
+    font-size: 2em;
+    text-align: center;
+    transition: 0.3s;
+}
+
+h1:hover {
+    color: #674b86;
+    transform: scale(1.1);
+}
+
+h5 {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}

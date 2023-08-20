@@ -1,0 +1,48 @@
+form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 30rem;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.Individual {
+    background-color: aquamarine;
+    width: 20rem;
+    
+
+
+}
+
+.conjunti {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+h4,
+p {
+    text-align: center;
+}
+
+.Individual img {
+    width: 20rem;
+object-fit: cover;
+}
+
+.ievento {
+
+    width: 15rem;
+    height: 2rem;
+}
+
+.bevento {
+    width: 15rem;
+    height: 2.4rem;
+    background-color: bisque;
+    border: none;
+}

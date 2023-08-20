@@ -1,0 +1,10 @@
+
+h1,h5{
+    text-align: center;
+}
+.container{
+    display: flex;
+}
+img{
+    width: 95%;
+}
